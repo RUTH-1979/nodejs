@@ -17,7 +17,7 @@ var sommeNotes = notes.reduce(function(sum, value) {
 }, 0);
 
 var moyenne = sommeNotes / nombreDeNotes;
-if (moyenne> 10){
+if (moyenne< 10){
     console.log('echec');
 }if (moyenne < 12){
     console.log('passable');
