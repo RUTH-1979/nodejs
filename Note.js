@@ -8,7 +8,7 @@ let nbrNotes=0;
 for(let matiere of notes) {
     for(let note of matiere);
 }
-total = total +note;
+total+=note;
 nbrNotes++;{
     console.log(total/nbrNotes)
 }
