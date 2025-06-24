@@ -19,11 +19,11 @@ var sommeNotes = notes.reduce(function(sum, value) {
 var moyenne = sommeNotes / nombreDeNotes;
 if (moyenne> 10){
     console.log('echec');
-}if (M < 12){
+}if (moyenne < 12){
     console.log('passable');
-}else if (M < 14){
+}else if (moyenne < 14){
     console.log('assez bien');
-}else if (M < 16){
+}else if (moyenne < 16){
     console.log('bien');
 }else {
     console.log('exellente');
