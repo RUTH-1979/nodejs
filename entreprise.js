@@ -6,8 +6,8 @@ var entreprise = {
     secteur :"Douala 3eme",
 };
 console.log("Informationsdel'entreprise:");
-console.log("Nom:[entreprise.nom]");
-console.log("Adresse:[entreprise.adresse]");
-console.log("Telephone:[entreprise.telephone]");
-console.log("Email:[entreprise.email]");
-console.log("Secteur:[entreprise.secteur]");
+console.log("Nom:",entreprise.nom);
+console.log("Adresse:",entreprise.adresse);
+console.log("Telephone:",entreprise.telephone);
+console.log("Email:",entreprise.email);
+console.log("Secteur:",entreprise.secteur);
