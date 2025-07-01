@@ -15,7 +15,9 @@ var nombreDeNotes = notes.length;
 var sommeNotes = notes.reduce(function(sum, value) {
     return sum + value;
 }, 0);
-
+for(let matiere of notes){
+    for(let note of matiere);
+}
 var moyenne = sommeNotes / nombreDeNotes;
 if (moyenne< 10){
     console.log('echec');
